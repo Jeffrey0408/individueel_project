@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00BFAB;
+}
+
+.logo { 
+    height: 15vh;
+}
+
+header, h2, p {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    border-color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
