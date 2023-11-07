@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #00BFAB;
-}
-
 .logo { 
     height: 15vh;
 }
@@ -21,7 +17,7 @@ nav {
     display: flex;
     margin: 1em;
     justify-content: center;
-    border-color: black;
+    background-color: #00BFAB; 
 }
 
 ul {
