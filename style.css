@@ -20,12 +20,12 @@ main {
     margin: 0.5em;
 }
 
-header, h2, p, h3 {
+header, h1, p, h2 {
     display: flex;
     justify-content: center;
 }
 
-h2 {
+h1 {
     margin: 0.5em;
 }
 
@@ -34,6 +34,9 @@ nav {
     margin-bottom: 1em;
     justify-content: center;
     background-color: #00BFAB; 
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 ul, li {
@@ -58,6 +61,7 @@ p {
     border-radius: 5%;
     box-shadow: 0.5em 0.5em gray;
     background-color: #00BFAB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* hier begint home */
@@ -66,15 +70,10 @@ p {
     display: block;
     flex-direction: column;
     padding: 1em;
-    margin: 1em;
-    margin-left: auto;
-    margin-right: auto; 
 }
 
 .home img {
     width: 100%;
-    display: flex;
-    justify-content: center;
     border-style: solid;
     border-radius: 5%;
 }
@@ -87,7 +86,7 @@ p {
     border-radius: 5%;
 }
 
-.home h3 {
+.home h2 {
     margin: 1em;
 }
 
@@ -108,7 +107,7 @@ p {
 
 /* hier begint over */
 
-.over h3 {
+.over h2 {
     margin-bottom: 1em;
 }
 
