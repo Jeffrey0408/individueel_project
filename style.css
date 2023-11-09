@@ -57,13 +57,13 @@ p {
     padding: 1em;
     border-radius: 5%;
     box-shadow: 0.5em 0.5em gray;
+    background-color: #00BFAB;
 }
 
 /* hier begint home */
 
 .home, .over{
-    display: flex;
-    justify-content: center;
+    display: block;
     flex-direction: column;
     padding: 1em;
     margin: 1em;
@@ -170,7 +170,6 @@ figcaption {
 
 .contact { 
     display: flex;
-    justify-content: center;
     flex-direction: row;
     margin: 1em;
 }
