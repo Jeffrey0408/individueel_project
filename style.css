@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
 .logo { 
     max-width: 75%;
     margin: 0.5em;
@@ -14,8 +25,8 @@ header, h2, p, h3 {
     justify-content: center;
 }
 
-header, main {
-    background-color: aliceblue;
+h2 {
+    margin: 0.5em;
 }
 
 nav {
@@ -36,16 +47,16 @@ li a {
     padding: 0.75em;
     list-style-type: none;
     text-decoration: none;
-    color: black
+    color: black;
+    font-weight: 600;
 }
 
 p {
     margin: 2em;
     border-style: solid;
     padding: 1em;
-    background-color: #00BFAB;
     border-radius: 5%;
-    box-shadow: 0.5em 0.5em gray
+    box-shadow: 0.5em 0.5em gray;
 }
 
 /* hier begint home */
@@ -61,7 +72,7 @@ p {
 }
 
 .home img {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     border-style: solid;
@@ -101,11 +112,12 @@ p {
     margin-bottom: 1em;
 }
 
-.over p {
-    border-style: none;
-    margin: 1em;
+.over p { 
     display: flex;
     justify-content: center;
+    border-style: none;
+    margin: 1em;
+   background-color: #00BFAB;
     flex-direction: column;
 }
 
@@ -148,15 +160,41 @@ figcaption {
 }
 
 .collage img {
+    width: auto;
     margin: 0.5em;
     display: flex;
     justify-content: center;
 }
 
+/* hier begint contact */
+
+.contact { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    border-style: solid;
+    margin: 1em;
+}
+
+.contact li {
+    padding: 0.25em;
+}
+
+.contact img {
+    width: 50%;
+}
 
 footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    padding: 0.25em;
     background-color: #00BFAB;
 }
