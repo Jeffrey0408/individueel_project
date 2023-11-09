@@ -5,35 +5,158 @@
 }
 
 .logo { 
-    height: 15vh;
+    max-width: 75%;
+    margin: 0.5em;
 }
 
-header, h2, p {
+header, h2, p, h3 {
     display: flex;
     justify-content: center;
+}
+
+header, main {
+    background-color: aliceblue;
 }
 
 nav {
     display: flex;
-    margin: 1em;
+    margin-bottom: 1em;
     justify-content: center;
     background-color: #00BFAB; 
 }
 
-ul {
+ul, li {
     display: flex;
     flex-direction: row;
-}
-
-li {
-    display: flex;
 }
 
 li a {
     display: flex;
     align-items: center;
-    padding: 1em;
+    padding: 0.75em;
     list-style-type: none;
     text-decoration: none;
+    color: black
 }
 
+p {
+    margin: 2em;
+    border-style: solid;
+    padding: 1em;
+    background-color: #00BFAB;
+    border-radius: 5%;
+    box-shadow: 0.5em 0.5em gray
+}
+
+/* hier begint home */
+
+.home, .over{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.home img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.home div {
+    background-color: #54ccc5;
+    border-style: solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5%;
+}
+
+.home h3 {
+    margin: 1em;
+}
+
+.home p {
+    border-style: none;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: none; 
+    background-color: #54ccc5;
+}
+
+.home a, .over a {
+   text-decoration: none;
+   color: black;
+}
+
+/* hier begint over */
+
+.over h3 {
+    margin-bottom: 1em;
+}
+
+.over p {
+    border-style: none;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.feit p {
+    background-color: white;
+    box-shadow: 0.5em 0.5em gray
+}
+
+.feit img {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 1em;
+}
+
+/* hier begint product */
+
+
+figure { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    border-style: solid;
+    background-color: white;
+    border-radius: 5%;
+    
+}
+
+figcaption {
+   display: flex;
+   text-align: center;
+   margin: 0.5em;
+}
+
+.collage img {
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #00BFAB;
+}
