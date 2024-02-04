@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.logo { 
+    max-width: 75%;
+    margin: 0.5em;
+}
+
+header, h1, p, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 70px;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+    background-color: #00BFAB; 
+    position: fixed;
+    top: 0;
+}
+
+ul, li {
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    padding: 0.75em;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+p {
+    margin: 2em;
+    border-style: solid;
+    padding: 1em;
+    border-radius: 5%;
+    box-shadow: 0.5em 0.5em gray;
+    background-color: #00BFAB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* hier begint home */
+
+.home, .over{
+    display: block;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.home img {
+    width: 100%;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.home div {
+    background-color: #54ccc5;
+    border-style: solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5%;
+}
+
+.home h2 {
+    margin: 1em;
+}
+
+.home p {
+    border-style: none;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: none; 
+    background-color: #54ccc5;
+}
+
+.home a, .over a {
+   text-decoration: none;
+   color: black;
+}
+
+/* hier begint over */
+
+.over h2 {
+    margin-bottom: 1em;
+}
+
+.over p { 
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    margin: 1em;
+   background-color: #00BFAB;
+    flex-direction: column;
+}
+
+.feit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.feit p {
+    background-color: white;
+    box-shadow: 0.5em 0.5em gray
+}
+
+.feit img {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 1em;
+}
+
+/* hier begint product */
+
+
+figure { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    border-style: solid;
+    background-color: white;
+    /* border-radius: 5%; */
+    
+}
+
+figcaption {
+   display: flex;
+   text-align: center;
+   margin: 0.5em;
+}
+
+.collage img {
+    width: auto;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+/* hier begint contact */
+
+.contact { 
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    border-style: solid;
+    margin: 1em;
+}
+
+.contact li {
+    padding: 0.25em;
+}
+
+.contact img {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.25em;
+    background-color: #00BFAB;
+}
